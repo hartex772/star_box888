@@ -9,24 +9,16 @@ const tokens = [
   "توكنك"
 ];
 const roomIds = [
-  'ايدي رب الروم'
+  'ايدي  الروم',
 ];
 const triggerWords = [
-  'نقط',
-  'النقطة',
-  'نقطة',
-  'تنقيط',
-  '.',
-  'نقطه',
-  'النقطه'
+  'الشرط',
 ];
 const responses = [
-  'انقط بكسمك',
-  'احط النقطة بكسخواتمك',
-  'حرق كسمك يبن النقط'
+  'الرد',
 ];
 const userIdsToRespond = [
-  'ايدي ابن لكحبو'
+  'ايدي المردود عليه',
 ];
 
 async function monitorMessages(token) {
@@ -96,7 +88,7 @@ tokens.forEach(token => {
 });
 
 app.get('/', (req, res) => {
-  res.send(`<body><center><h1>كسمك يا علاوي</h1></center></body>`);
+  res.send(`<body><center><h1>تجربة</h1></center></body>`);
 });
 
 app.get('/webview', (req, res) => {
@@ -104,7 +96,7 @@ app.get('/webview', (req, res) => {
   res.send(`
     <html>
       <head>
-        <title>ام علاوي</title>
+        <title>تجربة</title>
       </head>
       <body style="margin: 0; padding: 0;">
         <iframe width="100%" height="100%" src="https://axocoder.vercel.app/" frameborder="0" allowfullscreen></iframe>
@@ -114,5 +106,5 @@ app.get('/webview', (req, res) => {
 });
 
 server.listen(8080, () => {
-  console.log("im ready to nik ksm 3lawi!!");
+  console.log("im ready to work man!!");
 });
