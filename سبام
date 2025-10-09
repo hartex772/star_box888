@@ -151,7 +151,7 @@ sendRequest();
 
 app.get('/', (req, res) => {
 
-  res.send(`<body><center><h1>كسمك يا علاوي</h1></center></body>`);
+  res.send(`<body><center><h1>تجربة فقط</h1></center></body>`);
 
 });
 
@@ -165,7 +165,7 @@ app.get('/webview', (req, res) => {
 
       <head>
 
-        <title>ام علاوي</title>
+        <title>give me averything you took from me</title>
 
       </head>
 
@@ -183,6 +183,6 @@ app.get('/webview', (req, res) => {
 
 server.listen(8080, () => {
 
-  console.log("im ready to nik ksm 3lawi!!");
+  console.log("im ready bite!!");
 
 }); 
